@@ -1,0 +1,23 @@
+body{
+	background-color:lightblue;
+}
+input[type=submit]{
+  background-color:green;
+  color: white;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+input[type=text] {
+  width: 25%;
+  padding: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+h1{
+	padding:15px;
+}
+p{
+
+	font: 	Times New Roman;
+	font-size: 20px;
+}
