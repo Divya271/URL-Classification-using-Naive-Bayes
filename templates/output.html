@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body color:"lightblue">
+<p style="color:blue;font-size:25px;text-align: center;"><b>Result based on entered url</b></p>
+<div>
+
+
+			
+		{% if predict == 'good' %}
+		<h2 style="color:Green;"><b>Good-</b> <p ><i>The url you have entered is a good one</i></p> </h2>
+		{% elif predict == 'bad' %}
+		<h2 style="color:red;"><b>Bad-</b> <p><i>The url you have entered is a malicious url</i></p></h2>
+		{% endif %}
+
+	</div>
+</body>
+
+</html>

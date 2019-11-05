@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>URL Checker</title>
+<link rel="stylesheet" href="static\body.css">
+</head>
+<body>
+<h1><center>Let's find out</center></h1>
+<form action="{{ url_for('prediction')}}" method="POST">
+<center><p>Enter your url here: <input type="text" name="message" id="message" placeholder="Ex: www.google.com"></center>
+</br>
+<center><b><input  type="submit" value="CHECK"></b></center>
+</form>
+</body>
+</html>
